@@ -8,24 +8,24 @@ function Contact() {
       <div data-aos="fade-right" className="contact__body">
         <h2 className="contact__heading">Contact Me</h2>
         <p className="contact__p">
-          Currently I am looking for a summer 2022 Software Development
-          Internship
+          Currently I am looking for a Software Development
+         
         </p>
         <div className="contact__option">
           <FaMailBulk className="contact__logo" size={45} />
           <a href="mailto: jparsons@ualberta.ca">
-            <span className="contact__text">jparsons@ualberta.ca</span>
+            <span className="contact__text">suman1vastrakar@gmail.com</span>
           </a>
         </div>
         <div className="contact__option">
           <FaLinkedin className="contact__logo" size={45} />
           <a
-            href="https://www.linkedin.com/in/jack-parsonss/"
+            href="https://www.linkedin.com/in/suman-vastrakar/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="my Linkedin"
           >
-            <span className="contact__text">jack-parsonss</span>
+            <span className="contact__text">Suman Vastrakar</span>
           </a>
         </div>
       </div>

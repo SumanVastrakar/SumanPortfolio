@@ -15,11 +15,11 @@ function About() {
       <div data-aos="fade-right" className="about__text">
         <h2 className="about__heading">About Me</h2>
         <p className="about__body">
-          Hello! My name is Jack Parsons and I am a second-year Computer Science
-          Student attending the{" "}
-          <span className="about__specialText">University of Alberta.</span>{" "}
+          Hello! My name is Suman Vastrakar and I am a Full Stack Web Developer
+         {" "}
+          <span className="about__specialText"></span>{" "}
           Currently, I am very interested in{" "}
-          <span className="about__specialText">backend development</span>,
+          <span className="about__specialText">Front-end Development</span>,
           creating APIs, and working with databases. As well, I am extremely
           interested in Data Science, more specifically <span className="about__specialText">Artificial
           Intelligence</span> and <span className="about__specialText">Machine Learning.</span>
@@ -35,7 +35,7 @@ function About() {
       </div>
       <img
         className="about__headshot"
-        src="/images/jack_parsons_headshot.jpg"
+        src="https://media-exp1.licdn.com/dms/image/C5603AQGFLEeuN_2EAA/profile-displayphoto-shrink_800_800/0/1647781088738?e=1656547200&v=beta&t=cZ8ZJIJKr3I-4cuABawwrhaK4i7Aj42Jg1vOYigiNs0"
         alt="Brand Logo"
         width="300"
         height="300"

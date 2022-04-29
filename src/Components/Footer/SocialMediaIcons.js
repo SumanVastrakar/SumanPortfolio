@@ -6,7 +6,7 @@ function SocialMediaIcons() {
     <div className="socialMediaIcons">
       <hr className="socialMediaIcons__leftHr hr" />
       <a
-        href="https://github.com/jackparsonss"
+        href="https://github.com/SumanVastrakar"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="my GitHub"
@@ -24,7 +24,7 @@ function SocialMediaIcons() {
           size={30}
         />
       </a>
-      <a
+      {/* <a
         href="https://www.instagram.com/jack.par/"
         target="_blank"
         rel="noopener noreferrer"
@@ -45,7 +45,7 @@ function SocialMediaIcons() {
           className="socialMediaIcons__twitter footer__icon"
           size={30}
         />
-      </a>
+      </a> */}
       <hr className="socialMediaIcons__rightHr hr" />
     </div>
   );
