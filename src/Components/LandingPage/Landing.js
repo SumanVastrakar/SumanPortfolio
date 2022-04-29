@@ -9,7 +9,7 @@ function Landing() {
       <div className="landing__topText">
         <span className="landing__purpleText">Hi, my name is</span>
         <h1 className="landing__mainText">Suman Vastrakar.</h1>
-        <h1 className="landing__mainText">I like to code.</h1>
+        <h1 className="landing__mainText">I have a passion for coding</h1>
       </div>
 
       <hr className="landing__hr" />

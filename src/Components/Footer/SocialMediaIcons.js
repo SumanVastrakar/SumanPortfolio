@@ -14,7 +14,7 @@ function SocialMediaIcons() {
         <FaGithub className="socialMediaIcons__github footer__icon" size={30} />
       </a>
       <a
-        href="https://www.linkedin.com/in/jack-parsonss/"
+        href="https://www.linkedin.com/in/suman-vastrakar/"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="my Linkedin"
@@ -24,8 +24,8 @@ function SocialMediaIcons() {
           size={30}
         />
       </a>
-      {/* <a
-        href="https://www.instagram.com/jack.par/"
+      <a
+        href="/"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="my Instagram"
@@ -36,7 +36,7 @@ function SocialMediaIcons() {
         />
       </a>
       <a
-        href="https://twitter.com/jackparsonss"
+        href="/"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="my Twitter"
@@ -45,7 +45,7 @@ function SocialMediaIcons() {
           className="socialMediaIcons__twitter footer__icon"
           size={30}
         />
-      </a> */}
+      </a>
       <hr className="socialMediaIcons__rightHr hr" />
     </div>
   );

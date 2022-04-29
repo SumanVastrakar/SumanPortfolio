@@ -8,8 +8,8 @@ function Footer() {
     <footer className="footer">
       <SocialMediaIcons />
       <Logo />
-      <p className="footer__copyright">Copyright © 2021 Suman Vastrakar.</p>
-      <SourceCodeLink />
+      <p className="footer__copyright">Copyright © 2022 Suman Vastrakar.</p>
+      {/* <SourceCodeLink /> */}
     </footer>
   );
 }

@@ -8,20 +8,21 @@ function Project2() {
       <div className="project__main">
         <div data-aos="fade-right" className="project__left">
           <h3 className="project__title project__titleDark">
-            Covid-19 Discord Bot
+            Dress Div
           </h3>
           <p className="project__description project__body">
-            A <span className="project__specialText">hackathon</span> project
-            for HackED 2021. Using a variety of commands you can retrieve
-            different <span className="project__specialText">Covid-19</span>{" "}
-            data including cases, test, and vaccines.
+            A <span className="project__specialText">Creating a</span> fashion
+            
+             <span className="project__specialText">Created as an assignment</span>{" "}
+            includes fashion designing, alteration and home delivery services and you can buy products here.{"\n"}
+            It was one of my assignment and I completed this in one day.
           </p>
           <p className="project__tech project__body">
-            &gt; Python · Discord API · Johns Hopkins API
+            &gt;· React · Bootstrap · CSS
           </p>
           <a
             className="project__sourceCodeDark"
-            href="https://github.com/jackparsonss/Covid-Tracker-Bot"
+            href="https://github.com/SumanVastrakar/ReactRouterFinal"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="=Website GitHub Repository"
@@ -29,11 +30,22 @@ function Project2() {
             <FaGithub className="project__githubLogo" size={25} />
             <h3 className="project__sourceCodeText">Source Code</h3>
           </a>
+          <a
+            className="project__sourceCodeDark"
+            href="https://react-router-final.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="=Website GitHub Repository"
+          >
+            {/* <FaGithub className="project__githubLogo" size={25} /> */}
+            <h3 className="project__sourceCodeText">View Demo</h3>
+          </a>
+         
         </div>
         <img
           className="project__image project__imageDark"
           src="/images/covid_bot_project_image_large.jpg"
-          srcset="/images/covid_bot_project_image_small.jpg 750w, /images/covid_bot_project_image_large.jpg 1468w"
+          srcset="\images\screenshotDressDiv.png 750w, \images\screenshotDressDiv.png 1468w"
           sizes="50vw"
           alt="Covid Bot Project Commands"
           width="50%"
