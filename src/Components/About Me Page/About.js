@@ -10,7 +10,7 @@ function About() {
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
-
+//
   return (
     <section id="about" className="about">
       <div data-aos="fade-right" className="about__text">
@@ -24,7 +24,7 @@ function About() {
           <span className="about__specialText"> Masai Shool Bangaluru</span>{" "}
           Currently, I am very interested in{" "}
           <span className="about__specialText">Front-end Development</span>,
-         I am able to create responsive websites using  
+         I am able to create responsive websites using   
         <span className="about__specialText">
               React </span> and <span className="about__specialText">  Bootstrap Library</span>{"\n"}
               I also like to dip my toes in Backend development using Node.js and ExpressJs. I use mongoDb which is a 
