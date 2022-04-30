@@ -15,6 +15,9 @@ function About() {
     <section id="about" className="about">
       <div data-aos="fade-right" className="about__text">
         <h2 className="about__heading">About Me</h2>
+        <br>
+        </br>
+
         <p className="about__body">
           Hello! My name is Suman Vastrakar and I am a Bootcamp graduate from
          {" "}
@@ -42,8 +45,12 @@ function About() {
 </br>
 <br>
 </br>
+<h2 className="about__heading">My Skills</h2>
+<br>
+</br>
   
       <div className="techstackMarginBox">
+        <a href = "https://www.w3schools.com/css/">
         <img
         className=" techstackMargin"
         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
@@ -52,7 +59,9 @@ function About() {
         height="60"
       
       />
-           <img
+        </a>
+        <a href=""> 
+        <img
         className="techstackMargin"
         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
         alt="Brand Logo"
@@ -60,6 +69,9 @@ function About() {
         height="60"
       />
  
+        </a>
+     
+        <a href="https://git-scm.com/"> 
          <img
         className="techstackMargin"
         src="https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667"
@@ -67,6 +79,8 @@ function About() {
         width="60"
         height="60"
       />
+         </a>
+         <a href="https://www.w3.org/html/"> 
          <img
         className="techstackMargin"
         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
@@ -74,6 +88,8 @@ function About() {
         width="60"
         height="60"
       />
+        </a>
+        <a href="https://reactjs.org/"> 
          <img
         className="techstackMargin"
         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
@@ -81,6 +97,8 @@ function About() {
         width="60"
         height="60"
       />
+        </a>
+      <a href="https://nodejs.org/en/"> 
          <img
         className="techstackMargin"
         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
@@ -88,6 +106,8 @@ function About() {
         width="60"
         height="60"
       />
+        </a>
+      <a href="https://www.mongodb.com/"> 
         <img
         className="techstackMargin"
         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
@@ -95,6 +115,8 @@ function About() {
         width="60"
         height="60"
       />
+        </a>
+      <a href="https://www.postman.com/"> 
        <img
         className="techstackMargin"
         src="https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667"
@@ -102,6 +124,8 @@ function About() {
         width="60"
         height="60"
       />
+        </a>
+      <a href="https://getbootstrap.com/"> 
              <img
         className="techstackMargin"
         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
@@ -109,6 +133,7 @@ function About() {
         width="60"
         height="60"
       />
+        </a>
   
         </div>
       </div>

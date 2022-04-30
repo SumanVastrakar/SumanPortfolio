@@ -36,7 +36,8 @@ function SocialMediaIcons() {
         />
       </a>
       <a
-        href="/"
+        href="https://twitter.com/suman1vastrakar"
+        
         target="_blank"
         rel="noopener noreferrer"
         aria-label="my Twitter"
