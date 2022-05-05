@@ -17,7 +17,7 @@ function Project2() {
             includes fashion designing, alteration and home delivery services and you can buy products here.{"\n"}
             It was one of my assignment and I completed this in one day.
           </p>
-          <p className="project__tech project__body">
+          <p className="project__tech project__body" style={{color:"blue", fontWeight:"600"}}>
             &gt;· React · Bootstrap · CSS
           </p>
           <a

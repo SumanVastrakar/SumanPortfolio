@@ -27,7 +27,7 @@ function Project3() {
             and shows the upcoming weather for the next 7 days. {" "}
             
           </p>
-          <p className="project__tech project__body">
+          <p className="project__tech project__body" style={{color:"blue", fontWeight:"600"}}>
             &gt; Javascript · Bootstrap · CSS · HTML · API
           </p>
 

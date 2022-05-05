@@ -61,7 +61,7 @@ function Project1({ id }) {
             <span className="project__specialText"></span>
             This is a collaborative project, done by 5 team members and completed in 5 days.
           </p>
-          <p className="project__tech project__body">
+          <p className="project__tech project__body" style={{color:"blue", fontWeight:"600"}}>
             &gt; HTML · CSS · Bootstrap · POST API ·MongoDb · Mongoose  · Express 
        
           </p>
