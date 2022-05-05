@@ -8,6 +8,7 @@ function Projects() {
       <Project1 id="project1" />
       <Project2 />
       <Project3 />
+      <Project2 />
     </section>
   );
 }

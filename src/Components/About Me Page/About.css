@@ -71,4 +71,15 @@
 }
 .techstackMarginBox{
   display:flex;
+  align-items: center;
+
+}
+.techStackTool{
+  box-shadow: rgb(224, 227, 231) 0px 20px 30px -10px;
+  justify-content: space-evenly;
+  /* border:2px solid yellow; */
+  min-height: 100px;
+  background-color: whitesmoke;
+  border-radius: 100px;
+ 
 }
