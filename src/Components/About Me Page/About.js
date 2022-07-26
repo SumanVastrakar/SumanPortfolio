@@ -71,15 +71,6 @@ function About() {
  
         </a>
      
-        <a href="https://git-scm.com/" target="_blank"> 
-         <img
-        className=" techstackMargin"
-        src="https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667"
-        alt="Brand Logo"
-        width="60"
-        height="60"
-      />
-         </a>
          <a href="https://www.w3.org/html/" target="_blank"> 
          <img
         className=" techstackMargin"
@@ -102,6 +93,15 @@ function About() {
          <img
         className="techstackMargin"
         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+        alt="Brand Logo"
+        width="60"
+        height="60"
+      />
+        </a>
+      <a href="https://expressjs.com/" target="_blank"> 
+         <img
+        className="techstackMargin"
+        src="https://images.tute.io/tute/topic/express-js.png"
         alt="Brand Logo"
         width="60"
         height="60"
@@ -139,8 +139,9 @@ function About() {
       </div>
       <img
         className="about__headshot techstackMargin"
-        src="https://media-exp1.licdn.com/dms/image/C5603AQGFLEeuN_2EAA/profile-displayphoto-shrink_800_800/0/1647781088738?e=1656547200&v=beta&t=cZ8ZJIJKr3I-4cuABawwrhaK4i7Aj42Jg1vOYigiNs0"
-        alt="Brand Logo"
+        srcset="\images\SumanVastrakar.jpg 150w, \images\SumanVastrakar.jpg 468w"
+        // public\images\SumanVastrakar.jpg
+        alt="human"
         width="300"
         height="300"
       />

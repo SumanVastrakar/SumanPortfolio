@@ -10,7 +10,8 @@ function Project3() {
         <img
           className="project__image"
           src="/images/flavour_flow_image_large.png"
-          srcset="\images\weather.png 750w, \images\weather.png 1468w"
+          srcset="\images\BobbiBrownScreenShot.png 750w, \images\BobbiBrownScreenShot.png 1468w"
+          // public\images\BobbiBrownScreenShot.png
           sizes="50vw"
           alt="Flavout Flow Landing Page"
           width="50%"
@@ -18,22 +19,25 @@ function Project3() {
           loading="lazy"
         />
         <div data-aos="fade-left" className="project__right">
-        <h3 className="project__title">Weather Forecast App</h3>
+        <h3 className="project__title">Bobbi Brown</h3>
           <p className="project__description project__body">
-            A <span className="project__specialText">Weather Forecast</span> project
-            created as an assignment during the bootcamp. Allows users to{" "}
-            <span className="project__specialText">view weather forecast</span> based on {" "}
-            <span className="project__specialText">location</span>. It uses the API to get weather Forecast
-            and shows the upcoming weather for the next 7 days. {" "}
+            is a <span className="project__specialText"> global premium beauty brand that empowers
+           women to embrace and enhance their individual beauty.</span>The website of
+            bobbi-brown provides all the beauty products that are offered by the company.
+{" "}
+            <span className="project__specialText">This was a collaborative project of six member to create a clone
+ of bobbi-brown website.</span> {" "}
+            <span className="project__specialText">This Project was made as a part of construct week curriculum of MASAI School.</span>
             
           </p>
           <p className="project__tech project__body" style={{color:"blue", fontWeight:"600"}}>
-            &gt; Javascript · Bootstrap · CSS · HTML · API
+            &gt;· React · CSS · JavaScript · Bootstrap · MongoDB · ExpressJs · Nodejs
+      
           </p>
 
           <a
             className="project__sourceCode"
-            href="https://github.com/SumanVastrakar/Weather-"
+            href="https://github.com/imkeshav98/bobbibrown"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="=Website GitHub Repository"
@@ -43,7 +47,7 @@ function Project3() {
           </a>
           <a
             className="project__sourceCode"
-            href="https://admiring-curie-322f25.netlify.app/"
+            href="https://bobbibrown.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="=Website GitHub Repository"

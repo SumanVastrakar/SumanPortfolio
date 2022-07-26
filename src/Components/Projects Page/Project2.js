@@ -8,21 +8,27 @@ function Project2() {
       <div className="project__main">
         <div data-aos="fade-right" className="project__left">
           <h3 className="project__title project__titleDark">
-            Dress Div
+            My Quiz App
           </h3>
           <p className="project__description project__body">
-            A <span className="project__specialText">Creating a</span> fashion
+            <span className="project__specialText">Created a</span> Quiz App
             
-             <span className="project__specialText">Created as an assignment</span>{" "}
-            includes fashion designing, alteration and home delivery services and you can buy products here.{"\n"}
-            It was one of my assignment and I completed this in one day.
+             <span className="project__specialText">as an assignment</span>{"   "}
+            includes JWT Authentication and Authorization
+,Admin access and can add questions, Different categories of quizzes, Having documentation to go through,{"\n"}
+Each user will get random 10 questions, Once clicked on the option further you can’t select any option,
+After selecting option you can see explanation, At the end of the quiz you can see your score.
+
+           
           </p>
           <p className="project__tech project__body" style={{color:"blue", fontWeight:"600"}}>
-            &gt;· React · Bootstrap · CSS
+            &gt;· React · CSS · JavaScript · Bootstrap · MongoDB · ExpressJs · Nodejs
+      
           </p>
+  
           <a
             className="project__sourceCodeDark"
-            href="https://github.com/SumanVastrakar/ReactRouterFinal"
+            href="https://github.com/SumanVastrakar/MyQuizApp"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="=Website GitHub Repository"
@@ -32,7 +38,7 @@ function Project2() {
           </a>
           <a
             className="project__sourceCodeDark"
-            href="https://react-router-final.vercel.app/"
+            href="https://my-quiz-app-black.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="=Website GitHub Repository"
@@ -44,8 +50,9 @@ function Project2() {
         </div>
         <img
           className="project__image project__imageDark"
-          src="/images/covid_bot_project_image_large.jpg"
-          srcset="\images\screenshotDressDiv.png 750w, \images\screenshotDressDiv.png 1468w"
+          src="/images\quizAppScreenshot.png"
+          srcset="\images\quizAppScreenshot.png 750w, \images\quizAppScreenshot.png 1468w"
+          // public\images\quizAppScreenshot.png
           sizes="50vw"
           alt="Covid Bot Project Commands"
           width="50%"
